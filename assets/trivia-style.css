@@ -1,0 +1,277 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ============================= MY CODE ============================= */
+
+/* COLOR OPTIONS:
+#98BAC4 - grayish teal
+#7FB4C4 - more teal teal
+#697478 - dark blueish gray
+#C4AE98 - sand
+#787069 - dark sand
+#E9F9FF - pale blue
+*/
+
+body#background {
+	background-image: url("images/halftone.png");
+	z-index: -1;
+
+}
+
+div.trivia-box {
+	border-radius: 10px;
+	background-image: url("images/upfeathers.png");
+	margin: 2%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #C4AE98;
+}
+
+h1.trivia-header {
+	color: #787069;
+	text-align: center;
+	font-weight: bolder;
+	margin: 1%;
+	font-family: helvetica;
+	font-size: 4em;
+	letter-spacing: .2em;
+}
+
+div.start-timer-container {
+
+	margin: 1% 5% 1% 5%;
+	width: 40%;
+}
+
+button.start {
+
+	margin:2%;
+	float:left;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #C4AE98;
+	background-color: #787069;
+	padding:2% 3% 2% 3%;
+
+}
+
+p.text {
+
+	color:#E9F9FF;
+	font-family: helvetica;
+	font-weight: bolder;
+	letter-spacing: .1em;
+	font-size: 1.4em;
+
+}
+
+button.timer {
+	
+	margin:2%;
+	float:right;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #C4AE98;
+	background-color: #787069;
+	padding:2% 7% 2% 7%;
+	
+}
+
+section.main-section {
+	margin-bottom: 3%;
+}
+
+div.row-padding {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+div.question-box-left {
+
+	background-color: #787069;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #C4AE98;
+	border-radius: 10px;
+	margin: 1%;
+	
+}
+
+div.question-box-right {
+
+	background-color: #787069;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #C4AE98;
+	border-radius: 10px;
+	margin: 1%;
+	
+}
+
+h2.question-title {
+
+	color: #E9F9FF;
+	margin:10px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: helvetica;
+	font-weight: bolder;
+	letter-spacing: .2em;
+	text-decoration: underline;
+	margin: 3%;
+
+}
+
+p.question-body {
+
+	color: #E9F9FF;
+	margin: 5%;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: helvetica;
+
+}
+
+ul.answer-body {
+	margin-left: 12%;
+	margin-bottom: 4%;
+	letter-spacing: .1em;
+	font-size: 1.1em;
+
+}
+
+input.selector {
+
+	
+	margin-bottom: 4%;
+
+}
+
+label.answer {
+
+	color: #E9F9FF;
+	font-family: helvetica;
+	margin-left:2%;
+	
+
+
+}
+
+div.submit-restart-container {
+
+	margin: 1%;
+
+}
+
+
+
+button.submit {
+
+	margin:2%;
+	float:left;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	border-color: #C4AE98;
+	background-color: #787069;
+	padding:2% 3% 2% 3%;
+
+}
+
+button.restart {
+
+	margin:2%;
+	float:right;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	border-color: #C4AE98;
+	background-color: #787069;
+	padding:2% 3% 2% 3%;
+
+}
+
+div.answers-container {
+	
+	background-image: url("images/upfeathers.png");
+	border-style: solid;
+	border-width: 5px;
+	border-color: #C4AE98;
+	align-content: center;
+	
+}
+
+
+div.answer-style{
+	display: inline-block;
+	font-family: helvetica;
+	font-size: 1.5em;
+	margin:2% 10% 2% 10%;
+	font-weight: bolder;
+	color:#787069;
+}
+
+footer.footer {
+	
+	margin-top:2%;
+	background-image: url("images/upfeathers.png");
+	border-style: solid;
+	border-top-width: 5px;
+	border-top-color: #C4AE98;
+	padding:2%;
+
+}
+
+div.copyrightz {
+
+	text-align: center;
+	color: #787069;
+	font-size: 1.2em;
+}
+
+
