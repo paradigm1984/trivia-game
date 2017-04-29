@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+	
+	<meta charset="UTF-8">
+	<title> Trivia Game</title>
+
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="assets/trivia-style.css">
+
+	</head>
+ 
+	<body id="background">
+
+	<div class="row">
+		<div class="col-lg-3"> <!--spacerrrrr --></div>
+		<div class="col-md-12 col-lg-6">
+			<div class="jumbotron trivia-box">
+				<h1 class="trivia-header"> Art Trivia! </h1>
+			</div> <!--END "col-sm-6" -->
+		</div>
+		<div class="col-lg-3"> <!--spacerrrrr --></div>
+	</div> <!--END "row" -->
+	<div class="row">
+		<div class="col-xs-3"> <!--spacerrrrr --></div>
+			<div class="col-xs-12 start-timer-container">
+				<button class="button start" id="start">
+					<p class="text"> Start! </p>
+				</button> <!--END "start-timer" -->
+				<button class="button timer">
+				<p class="text" id="show-number"> 60 </p>
+				</button> <!--END "start-timer" -->
+			</div>
+			<div class="col-xs-3"> <!--spacerrrrr -->
+		</div>
+	</div> <!--END "row" -->
+	<section class="main-section" id="questions">
+		<div class="row row-padding">
+			<div class="col-md-6 col-sm-12">
+				<div class="question-box-left">
+					<h2 class="question-title">Question 1</h2>
+						<p class="question-body">
+							The Starry Night is an oil on canvas painted by which post-impressionist painter? 
+						</p><!-- answer: Vincent Van Gogh -->
+						<ul class="answer-body" id="answer-body-1">
+							<li>
+								<input class="selector" type="radio" name="q1" value="a">
+								<label class="answer" >Vincent Van Gogh</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q1" value="b">
+								<label class="answer">Claude Monet</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q1" value="c">
+								<label class="answer">Pierre-Auguste Renoir</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q1" value="d">
+								<label class="answer">Edouard Manet</label>
+							</li>
+						</ul>
+
+				</div><!--END "question-box" -->
+			</div><!--END "col-md-6 col-sm-12" -->
+			<div class="col-md-6 col-sm-12">
+				<div class="question-box-right">
+					<h2 class="question-title">Question 2</h2>
+						<p class="question-body">
+							Who was the Spanish surrealist painter best known for his work "The Persistence of Memory"?
+						</p><!-- answer: Leonardo da Vinci -->
+						<ul class="answer-body" id="answer-body-2">
+							<li>
+								<input class="selector" type="radio" name="q2" value="a">
+								<label class="answer" >Michelangelo</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q2" value="b">
+								<label class="answer">Sandro Botticelli</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q2" value="c">
+								<label class="answer">Leonardo Da Vinci</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q2" value="d">
+								<label class="answer">Leonardo DiCaprio</label>
+							</li>
+						</ul>
+
+				</div><!--END "question-box" -->
+			</div><!--END "col-md-6 col-sm-12" -->
+		</div> <!--END "row first-row" -->
+
+		<div class="row row-padding">
+			<div class="col-md-6 col-sm-12">
+				<div class="question-box-left">
+					<h2 class="question-title">Question 3</h2>
+						<p class="question-body">
+							What French sculptor created the Statue of Liberty?
+						</p><!-- answer: Frederic Auguste Bartholdi -->
+						<ul class="answer-body" id="answer-body-2">
+							<li>
+								<input class="selector" type="radio" name="q3" value="a">
+								<label class="answer">Pablo Picaso</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q3" value="b">
+								<label class="answer">Rembrandt</label>
+							</li>
+							<li>	
+								<input class="selector" type="radio" name="q3" value="c">
+								<label class="answer">Frederic Auguste Bartholdi</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q3" value="d">
+								<label class="answer">Paul Cezanne</label>
+							</li>
+						</ul>
+
+				</div><!--END "question-box" -->
+			</div><!--END "col-md-6 col-sm-12" -->
+			<div class="col-md-6 col-sm-12">
+				<div class="question-box-right">
+					<h2 class="question-title">Question 4</h2>
+						<p class="question-body">
+							Which painter started the impressionist movement?
+						</p><!-- answer: Claude Monet -->
+						<ul class="answer-body" id="answer-body-3">
+							<li>
+								<input class="selector" type="radio" name="q4" value="a">
+								<label class="answer">Edgar Degas</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q4" value="b">
+								<label class="answer">Gustave Courbet</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q4" value="c">
+								<label class="answer">Salvador Dali</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q4" value="d">
+								<label class="answer">Claude Monet</label>
+							</li>
+						</ul>
+
+				</div><!--END "question-box" -->
+			</div><!--END "col-md-6 col-sm-12" -->
+		</div> <!--END "row second-row" -->
+			
+	 	<div class="row row-padding">
+			<div class="col-md-6 col-sm-12">
+				<div class="question-box-left">
+					<h2 class="question-title">Question 5</h2>
+						<p class="question-body">
+							The ancient art of compound paper folding is known as what?
+						</p><!-- answer: origami -->
+						<ul class="answer-body" id="answer-body-3">
+							<li>
+								<input class="selector" type="radio" name="q5" value="a">
+								<label class="answer">Scrap Booking</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q5" value="b">
+								<label class="answer">Origami</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q5" value="c">
+								<label class="answer">Shinigami</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q5" value="d">
+								<label class="answer">Konami</label>
+							</li>
+						</ul>
+
+				</div><!--END "question-box" -->
+			</div><!--END "col-md-6 col-sm-12" -->
+			<div class="col-md-6 col-sm-12">
+				<div class="question-box-right">
+					<h2 class="question-title">Question 6</h2>
+						<p class="question-body">
+							 Who painted a late 15th-century mural known as the Last Supper?
+						</p><!-- answer: Leonardo Da Vinci -->
+						<ul class="answer-body" id="answer-body-3">
+							<li>
+								<input class="selector" type="radio" name="q6" value="a">
+								<label class="answer">Claude Monet</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q6" value="b">
+								<label class="answer">Leonardo Da Vinci</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q6" value="c">
+								<label class="answer">Gustave Dore</label>
+							</li>
+							<li>
+								<input class="selector" type="radio" name="q6" value="d">
+								<label class="answer">Pablo Picaso</label>
+							</li>
+						</ul>
+
+				</div><!--END "question-box" -->
+			</div><!--END "col-md-6 col-sm-12" -->
+		</div> <!--END "row second-row" -->	
+		
+		<div class="row">
+			<div class="col-xs-3"> <!--spacerrrrr --></div>
+			<div class="col-xs-6 submit-restart-container">
+				<button class="button submit" id="submit" >
+					<p class="text"> Submit </p>
+				</button> <!--END "start-timer" -->
+				<button class="button restart">
+				<p class="text" id="restart"> Restart </p>
+				</button> <!--END "start-timer" -->
+			</div>
+			<div class="col-xs-3"> <!--spacerrrrr --></div>
+		</div> <!--END "row" -->
+	</section> <!--END "main-section" -->
+	<section class="answer-section" id="answers">
+		<div class="row">
+			<div class="col-sm-4"><!--spacerrrrr --></div>
+			<div class="col-sm-4 answers-container">
+	        		<div id="AnswerOne" class="answer-style">answer one:</div>
+	        		<div id="AnswerTwo" class="answer-style">answer two: </div>
+	        		<div id="AnswerThree" class="answer-style">answer three:</div>
+	        		<div id="AnswerFour" class="answer-style">answer four:</div>
+	        		<div id="AnswerFive" class="answer-style">answer five:</div>
+	        		<div id="AnswerSix" class="answer-style">answer six:</div>
+			</div> <!--END "col-sm-4" -->
+
+		</div> <!--END "row" -->
+	</section>
+	<footer id="footer" class="footer">
+		<div class="copyrightz">
+			&copy; Copyright 2017 Daniel Blanco
+		</div>
+	</footer>
+
+ 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+	
+		<script type="text/javascript" src="assets/trivia-script.js"></script>
+
+	</body>
+ 
+</html>
